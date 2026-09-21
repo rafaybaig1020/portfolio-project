@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafay Baig - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="profile-name">Rafay Baig</div>
+
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Project Details</a>
+            <a href="#skills">Skills</a>
+            <a href="#recommendations">Recommendations</a>
+        </nav>
+    </header>
+
+    <!-- Home Icon -->
+    <a href="#top" class="home-icon">⌂</a>
+
+    <main id="top">
+
+        <!-- About Me -->
+        <section id="about" class="about-section">
+
+            <div class="profile-image">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500"
+                     alt="Computer Science">
+            </div>
+
+            <div class="about-text">
+                <h1>Rafay Baig</h1>
+
+                <p>
+                    Hello! I am Rafay Baig, a Computer Science student with
+                    an interest in web development, software development and
+                    information technology. I enjoy learning new technologies
+                    and creating simple, responsive and user-friendly websites.
+                    I am continuously improving my programming and technical
+                    skills through practical projects and online learning.
+                </p>
+            </div>
+
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+
+            <div class="skills-container">
+
+                <div class="skill">
+                    <div class="skill-logo">HTML</div>
+                    <h3>HTML5</h3>
+                    <p>Web Page Structure</p>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-logo">CSS</div>
+                    <h3>CSS3</h3>
+                    <p>Web Page Styling</p>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-logo">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>Web Interactivity</p>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-logo">SQL</div>
+                    <h3>SQL</h3>
+                    <p>Database Management</p>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-logo">GIT</div>
+                    <h3>Git & GitHub</h3>
+                    <p>Version Control</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+            <h2>Project Details</h2>
+
+            <div class="projects-container">
+
+                <div class="project">
+                    <h3>Used Car Data Analysis</h3>
+                    <p>
+                        A data collection and analysis project using Python,
+                        BeautifulSoup and Pandas to collect and analyze
+                        used-car information.
+                    </p>
+                </div>
+
+                <div class="project">
+                    <h3>Online Plant Shopping Website</h3>
+                    <p>
+                        A responsive plant shopping website created using
+                        HTML, CSS, JavaScript and React concepts with product
+                        and shopping cart functionality.
+                    </p>
+                </div>
+
+                <div class="project">
+                    <h3>Restaurant Website</h3>
+                    <p>
+                        A responsive restaurant website featuring food items,
+                        navigation, attractive layouts and mobile-friendly
+                        design.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Recommendations -->
+        <section id="recommendations">
+            <h2>Recommendations</h2>
+
+            <div id="recommendation-list">
+
+                <div class="recommendation">
+                    <p>
+                        "Rafay is a dedicated learner who always tries to
+                        improve his technical knowledge. He approaches his
+                        tasks with responsibility and consistency."
+                    </p>
+                </div>
+
+                <div class="recommendation">
+                    <p>
+                        "Rafay has a good interest in technology and web
+                        development. He is willing to learn new concepts and
+                        apply them through practical projects."
+                    </p>
+                </div>
+
+                <div class="recommendation">
+                    <p>
+                        "Rafay is a hardworking team member with a positive
+                        attitude. He communicates well and takes ownership
+                        of his assigned work."
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- New Recommendation Form -->
+            <div class="recommendation-form">
+
+                <h3>Add a Recommendation</h3>
+
+                <textarea id="newRecommendation"
+                    placeholder="Write your recommendation here..."></textarea>
+
+                <button onclick="addRecommendation()">
+                    Submit Recommendation
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
