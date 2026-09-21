@@ -1,0 +1,189 @@
+cat << 'EOF' > index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Alex Morgan</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar with Top-Left Name & Home Icon -->
+  <header>
+    <nav class="navbar">
+      <div class="nav-brand">
+        <a href="#top" class="home-icon" title="Go to Top">
+          <spanYar, yeh lo ek complete aur clean `index.html` file ka template jisme aapke saare required sections aur functionalities (Name, Navigation Bar, About Me, Skills, Projects, Recommendations, aur working Home icon) include hain. 
+
+Aap ise copy-paste karke apni details ke hisaab se customize kar sakte hain:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Font Awesome Icons for Home Icon -->
+  <link rel="stylesheet" href="[https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css)">
+  <style>
+    /* Basic Styling */
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    /* Navbar Styling */
+    header {
+      background-color: #333;
+      color: #fff;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .nav-brand {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .nav-links {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+      align-items: center;
+    }
+    .nav-links li {
+      margin-left: 20px;
+    }
+    .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+    .nav-links a:hover {
+      color: #00bcd4;
+    }
+    .home-icon {
+      font-size: 1.2rem;
+    }
+    
+    /* Section Layouts */
+    section {
+      padding: 100px 20px 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+      border-bottom: 1px solid #ccc;
+    }
+    .skills-list, .projects-grid, .recommendations-grid {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .card {
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 8px;
+      flex: 1 1 calc(33% - 20px);
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <!-- Name / Brand -->
+      <div class="nav-brand">Your Name Here</div>
+      
+      <!-- Navigation Links -->
+      <ul class="nav-links">
+        <!-- Working Home Icon Link -->
+        <li><a href="#home" title="Home"><i class="fa-solid fa-house home-icon"></i></a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#recommendations">Recommendations</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Hi, I'm Your Name</h1>
+    <p>Welcome to my personal portfolio website!</p>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Write a short description about yourself here. Mention your passion, background, and what you enjoy working on.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <div class="card">
+        <h3>HTML & CSS</h3>
+        <p>Responsive design and web layout styling.</p>
+      </div>
+      <div class="card">
+        <h3>JavaScript</h3>
+        <p>Dynamic and interactive web elements.</p>
+      </div>
+      <div class="card">
+        <h3>Git & GitHub</h3>
+        <p>Version control and project hosting.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="card">
+        <h3>Project 1</h3>
+        <p>Brief description of your first project.</p>
+      </div>
+      <div class="card">
+        <h3>Project 2</h3>
+        <p>Brief description of your second project.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recommendations Section -->
+  <section id="recommendations">
+    <h2>Recommendations</h2>
+    <div class="recommendations-grid">
+      <div class="card">
+        <p>"A dedicated team player with excellent technical skills!"</p>
+        <p><strong>- Mentor / Manager</strong></p>
+      </div>
+      <div class="card">
+        <p>"Always delivers quality work on time."</p>
+        <p><strong>- Peer / Colleague</strong></p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
